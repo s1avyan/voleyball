@@ -12,7 +12,7 @@
             class="podacha p1"
             src="img/vball.png"
             alt="мяч"
-            style="width: 20px; height: 15px;"
+            style="width: 20px; height: 15px"
           />
           <span class="teamname team1" id="team1">DreamTeam 1</span
           ><span class="teamcolor" id="team1color"></span>
@@ -51,7 +51,7 @@
       class="logo"
       src="img/logo-dneprvolley.png"
       alt="Logo"
-      style="width: 80px;"
+      style="width: 80px"
     />
     <div class="wrap stats">
       <label id="lastSave">Последнее сохранение: никогда</label><br />
@@ -59,7 +59,7 @@
       <button id="save2firebase">Сохранить в базу</button>
       <a
         href="https://volleystat-5bc1c.firebaseapp.com/games.html"
-        style="color: #ffffff;"
+        style="color: #ffffff"
         >Сохраненные игры</a
       >
       <br />
@@ -262,7 +262,7 @@
             id="team1name"
             tabindex="1"
             placeholder="DreamTeam 1"
-            maxlength="15"
+            maxlength="16"
             class="namecom1"
           />
         </div>
@@ -293,7 +293,7 @@
         id="team2name"
         tabindex="2"
         placeholder="DreamTeam 2"
-        maxlength="15"
+        maxlength="16"
         class="namecom2"
       />
       <!--   <button type="button" onclick="morePointForTeam2()" accesskey="a">+</button>
@@ -336,13 +336,19 @@
 
     <div class="list">
       <div class="instructions">
-        <span class="instructions__post"
+        <span>
+          Новатор<br />
+          Бахмут-ШВСМ<br />
+          Політехнік-Одеса<br />
+          ДСО-ЗУНУ<br />
+        </span>
+        <!-- <span class="instructions__post"
           >Q/W => добавить/отнять очко команды 1</span
         >
         <span class="instructions__post"
           >A/S => добавить/отнять очко команды 2</span
         >
-        <span class="instructions__post">X => Cкрыть лишнее</span>
+        <span class="instructions__post">X => Cкрыть лишнее</span> -->
       </div>
 
       <select id="pickChampionship">
