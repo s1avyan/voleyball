@@ -1033,18 +1033,6 @@ function morePointForTeam2() {
             "GSCORE2"
           ).value;
           z[i].style.border = "1px solid gray";
-          $(".remove button").click(function () {
-            typear = $(this).data("typea");
-            var point = $(abs[psy]).text();
-            $(".grafik .T2View").text(point + " " + typear);
-            $(".grafik .T1View").removeClass("T1View");
-            $(".grafik .T2View").addClass("pipka");
-            $(".grafik .T2View").removeClass("T2View");
-            $(".remove").remove();
-            $(".grafik").prepend(
-              '<div><div class="sgraf1 T1View"></div><div class="sgraf2 T2View"></div></div>'
-            );
-          });
         }
       }
     }
